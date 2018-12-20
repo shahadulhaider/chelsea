@@ -3,7 +3,7 @@ import { ChelseaLogo } from '../ui/icons'
 
 const Footer = () => {
   return (
-    <footer className="bck_blue">
+    <footer className="bck_lgrey">
       <div className="footer_logo">
         <ChelseaLogo
           width="120px"

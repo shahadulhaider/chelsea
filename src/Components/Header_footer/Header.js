@@ -17,17 +17,25 @@ class Header extends Component {
       >
         <Toolbar style={{ display: 'flex' }}>
 
-          <div style={{ flexGrow: 1 }}>
+          <div style={{  }}>
             <div className="header-logo">
               <ChelseaLogo
                 link={true}
                 linkTo="/"
-                width= "70px"
-                height= "70px"
-            />
+                width="70px"
+                height="70px"
+              />
             </div>
           </div>
-
+          <div
+            className="header_text"
+            style={{
+              display: 'flex',
+              flexGrow: 1
+            }}
+          >
+            Chelsea Football Club
+          </div>
           <Link to="/the_team">
             <Button color="inherit">the team</Button>
           </Link>
