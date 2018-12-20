@@ -153,10 +153,12 @@ button {
 }
 
 footer {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 16px;
   color: #ffffff;
-  padding: 30px 0px;
+  padding: 80px 0px;
 }
 
 footer .img_cover{
@@ -164,8 +166,8 @@ footer .img_cover{
 }
 
 footer .footer_discl {
-  margin: 10px 0px;
-  color: #034694;
+  margin: 10px 20px;
+  color: #0e1731;
 }
 
 
@@ -176,28 +178,28 @@ footer .footer_discl {
 .featured_wrapper {
   margin: 0 auto;
   width: 1280px;
-  margin-top: 90px;
-  height: 800px;
+  margin-top: 50px;
+  height: 750px;
   overflow: hidden;
 }
 
 .featured_stripes {
   position: relative
 }
+
 .featured_text {
   position: relative;
   font-family: 'Righteous', cursive;
 }
 
-
 .featured_stripes .stripe {
   width: 230px;
-  height: 1200px;
+  height: 1100px;
   position: absolute;
 }
 
 .featured_number {
-  font-size: 270px;
+  font-size: 220px;
   color: #ffffff;
   transform: translate(260px,170px);
   position: absolute;
@@ -209,6 +211,7 @@ footer .footer_discl {
   background-size: contain !important;
   background-repeat: no-repeat !important;
   position: absolute;
+  top: 20px;
 }
 .featured_first {
   position: absolute;
