@@ -237,7 +237,7 @@ footer .footer_discl {
 
 .home_matches_wrapper {
   background: #03e2e2;
-  /* margin-top:9px; */
+  margin-top:9px;
   padding: 50px 0px;
 }
 
@@ -262,8 +262,10 @@ footer .footer_discl {
 ===============================*/
 
 .match_block .match_date{
-  color:#ffffff;
+  color:#0f0f0f;
+  padding: 5px;
   font-size:18px;
+  font-family: 'Righteous', cursive;
 }
 
 .match_block .match_wrapper .match_top,
