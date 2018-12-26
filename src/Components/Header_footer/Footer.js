@@ -3,11 +3,11 @@ import { ChelseaLogo } from '../ui/icons'
 
 const Footer = () => {
   return (
-    <footer className="bck_lgrey">
+    <footer className="bck_blue">
       <div className="footer_logo">
         <ChelseaLogo
-          width="120px"
-          height="120px"
+          width="100px"
+          height="100px"
           link={true}
           linkTo="/"
         />

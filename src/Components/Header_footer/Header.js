@@ -11,8 +11,8 @@ class Header extends Component {
         position="fixed"
         style={{
           backgroundColor: '#034694',
-          padding: '10px 0',
-          borderBottom: '2px solid #00285e'
+          // padding: '10px 0',
+          // borderBottom: '2px solid #6A7AB5',
         }}
       >
         <Toolbar style={{ display: 'flex' }}>
@@ -36,6 +36,11 @@ class Header extends Component {
           >
             Chelsea Football Club
           </div>
+
+          <Link to="/the_team">
+            <Button color="inherit">about chelsea</Button>
+          </Link>
+
           <Link to="/the_team">
             <Button color="inherit">the team</Button>
           </Link>
