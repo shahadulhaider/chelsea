@@ -5,7 +5,7 @@ import PromotionAnimation from './PromotionAnimation'
 
 const Promotion = () => {
   return (
-    <div className="promotion_wrapper" style={{background: '#ffffff'}} >
+    <div className="promotion_wrapper bck_lgrey" >
       <div className="container">
         <PromotionAnimation />
         <Enroll />
